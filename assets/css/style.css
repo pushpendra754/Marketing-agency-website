@@ -366,6 +366,7 @@ body {
   text-align: center;
   box-shadow: var(--shadow-1);
   transition: var(--transition-2);
+  height: fit-content;
 }
 
 .service-card:is(:hover, :focus-within) { transform: translateY(-10px); }
@@ -381,7 +382,15 @@ body {
 
 .service-card .card-title { margin-block: 20px 8px; }
 
-.service-card .card-text { font-size: var(--fs-6); }
+.service-card .card-text { font-size: var(--fs-6);
+  height: 140px;
+
+}
+.card-textt{
+  font-size: var(--fs-6);
+  height: 110px;
+
+}
 
 
 
@@ -1047,9 +1056,7 @@ textarea.input-field {
 
 
 
-  /**
-   * CONTACT
-   */
+
 
   .checkbox-wrapper { margin-block: 20px; }
 
@@ -1060,6 +1067,7 @@ textarea.input-field {
   .contact-card .card-icon { font-size: 32px; }
 
 }
+
 
 
 
